@@ -1,0 +1,65 @@
+.container {
+	width:96%;
+}
+
+header h1 {
+	text-align: center;
+}
+
+#logotipo {
+	max-width: 50%;
+}
+
+.sacola {
+	display: none;
+}
+
+.menu-opcoes {
+	text-align: center;
+}
+
+.menu-opcoes ul li {
+	display: inline-block;
+	margin: 5px;
+}
+
+.menu-opcoes ul {
+	position: static;
+}
+
+.busca,
+.secao-esq, 
+.departamentos, 
+#destaque{
+	margin-right: 0;
+	width: 100%;
+}
+
+.painel {
+	width: auto;
+}
+
+.painel li {
+	width: 30%;
+}
+
+.painel img,
+body {
+	width: 100%;
+}
+
+#destaque {
+	float: none;
+}
+
+.logo-rodape {
+	padding-left: 0;
+}
+
+.secao-esq {
+	text-align: center;
+}
+
+.produto img {
+	width: 100%;
+}

@@ -1,0 +1,83 @@
+body {
+	margin-left: auto;/*Deve configurar o tamanho do body para que consiga automatizar a margem com o 'auto', centralizando o body no meio da página*/
+	margin-right: auto;
+	color: #333333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-serif;
+}
+
+h2 {
+	position: static;
+	top: 80px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 24px;
+	background-image: url(../img/sobre-background.jpg);/* .. para subir caminho*/
+}
+
+h3 {
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	border-bottom: 2px groove #CD853F;
+}
+
+p {
+	padding: 5px 45px;
+	text-indent: 25px;
+}
+
+
+
+figure {
+	padding: 15px;
+	margin: 30px;
+	background-color: #F2EDED; /* Notação Hexadecimal é mais comum, pois alguns navegadores não aceitam notação RGB*/
+	border-spacing: 1px solid #ccc; /* Toda vez que os caracteres presentes na composição da base se repetirem, estes podem ser simplificados. Então um número hexadecmal cccccc, pode ser simplicado para ccc.*/
+	text-align: center;
+}
+
+figure img {
+	width: 70%;
+}
+figcaption {
+	margin-top: 10px;
+	font-style: italic;
+}
+
+#centro-distribuicao {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+#familia-pelho {
+	float:right;
+	margin: 0 0 10px 10px;
+}
+
+.diferenciais {
+	margin-bottom: 20px;
+}
+
+p:first-letter{
+	font-weight: bold;
+	}
+
+.menu-opcoes a:hover {
+	color: #007dc6;
+}
+
+.menu-opcoes a:active {
+	color: #867dc6;
+}
+
+.sacola {
+	padding: 10px 35px;
+	text-indent: 0px;
+}
+
+p.sacola:first-letter{
+	font-weight: normal;
+}
