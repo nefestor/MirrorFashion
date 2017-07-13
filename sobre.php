@@ -31,7 +31,7 @@
 			</figure>
 
 			<p>
-				Compre suas roupas e acessórios na Mirror Fashion. Acesse <a href="index.html">nossa loja</a> ou entre em contato se tiver dúvidas. Conheça também nossa <a href="#historia">história</a> e nossos <a href="#diferenciais">diferenciais</a>.
+				Compre suas roupas e acessórios na Mirror Fashion. Acesse <a href="index.php">nossa loja</a> ou entre em contato se tiver dúvidas. Conheça também nossa <a href="#historia">história</a> e nossos <a href="#diferenciais">diferenciais</a>.
 			</p>
 		</section>
 		<section class="historia">
@@ -72,5 +72,6 @@
 		</section>
 	</article>
 	<?php include("footer.php"); ?>
+	<script> alert("oi");</script>
 </body>
 </html>

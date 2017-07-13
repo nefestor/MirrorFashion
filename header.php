@@ -1,5 +1,5 @@
 <header class="container">
-		<h1><a href="index.html"><img id="logotipo" src="img/logo.png" alt="Logotipo da Mirror Fashion"></a></h1>
+		<h1><a href="index.php"><img id="logotipo" src="img/logo.png" alt="Logotipo da Mirror Fashion"></a></h1>
 		<p class="sacola">
 			Nenhum item na sacola de compras
 		</p>
@@ -8,7 +8,7 @@
 				<li><a href ="#">Sua conta</a></li>
 				<li><a href ="#">Lista de Desejos</a></li>
 				<li><a href ="#">Cartão Fidelidade</a></li>
-				<li><a href ="sobre.html">Sobre</a></li>
+				<li><a href ="sobre.php">Sobre</a></li>
 				<li><a href ="#">Ajuda</a></li>
 			</ul>
 		</nav>
