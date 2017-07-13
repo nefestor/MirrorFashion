@@ -141,10 +141,10 @@ header {
 footer {
 	background-image: url(../img/fundo-rodape.png);
 	clear: both;
-	position: absolute;
 	padding: 20px 0;
 	right: 0;
   	left: 0;
+  	bottom: 0;
 }
 
 .social a {
@@ -239,10 +239,4 @@ footer .container {
 
 #destaque {
 	float:right;
-}
-
-@media (min-width: 700px) {
-	footer {
-		bottom: 0;
-	}
 }
