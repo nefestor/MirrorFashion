@@ -43,19 +43,32 @@
 					</div>
 				</div>
 				<div class="panel-body">
+					<img src="img/produtos/foto2-<?= $_POST["cor"] ?>.png" class="img-trumbnail img-responsive">
 					<dl>
+
+						<dt>Produto</dt>
+						<dd><?= $_POST['nome'] ?></dd>
+
 						<dt>Cor</dt>
 						<dd><?= $_POST['cor'] ?></dd>
 
 						<dt>Tamanho</dt>
 						<dd><?= $_POST['tamanho'] ?></dd>
 
-						<dt>Produto</dt>
-						<dd><?= $_POST['nome'] ?></dd>
-
 						<dt>Preço</dt>
-						<dd><?= $_POST['preco'] ?></dd>
+
+						<dd id="preco">R$ <?= $_POST['preco'] ?></dd>
 					</dl>
+					<div class="form-group">
+						<label for="qt">Quantidade</label>
+						<input id="qt" class="form-control" type="number" min="0" max="99" value="1">
+					</div>
+					<div class="form-group">
+						<label for="total">Total</label>
+						<output id="total" class="form-control">
+							<?= $_POST["preco"] ?>
+						</output>
+					</div>
 				</div>
 				<form class="col-sm-8 col-lg-9">
 					<div class="row">
@@ -114,5 +127,6 @@
 		</div>
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.js"></script>
+		<script src="js/total.js"></script>
 	</body>
 </html>

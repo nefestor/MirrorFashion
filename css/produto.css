@@ -28,7 +28,7 @@
 	box-shadow: 0 1px 3px #777;
 	display: block;
 	padding: 0.5em 1em;
-	margin-bottom: 1em 0;
+	margin-top: 10px;
 }
 .cores {
 	position:relative;
@@ -152,4 +152,14 @@ td:first-child {
 }
 .cores label img {
 	border: 2px solid #ccc;
+}
+.tamanhos output {
+	display: inline-block;
+	height: 44px;
+	width: 44px;
+	line-height: 44px;
+	text-align: center;
+	border: 3px solid #555;
+	border-radius: 50%;
+	color: #777;
 }

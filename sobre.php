@@ -17,7 +17,7 @@
 	<article class="container">
 		<h2>Mirror Fashion</h2>
 		<section class="sobre">
-			<p>
+			<p id="pr">
 				A Mirror Fashion é a maior empresa comércio eletrônico no segmento de moda em todo o mundo. Fundada há <?php print date(" Y") - 1932; ?> anos, possui filiais em 124 países, sendo líder de mercado com mais de 90% de participação em 118 deles.
 			</p>
 
@@ -72,6 +72,6 @@
 		</section>
 	</article>
 	<?php include("footer.php"); ?>
-	<script> alert("oi");</script>
+	<script src="js/teste.js"></script>
 </body>
 </html>

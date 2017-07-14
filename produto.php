@@ -21,20 +21,21 @@
 							<legend>Escolha a cor:</legend>
 							<input type="radio" name="cor" id="verde" value="Verde" checked>
 							<label for="verde">
-								<img src="img/produtos/foto2-verde.png">
+								<img src="img/produtos/foto2-Verde.png">
 							</label>
 							<input type="radio" name="cor" id="rosa" value="Rosa">							
 							<label for="rosa">
-								<img src="img/produtos/foto2-rosa.png">
+								<img src="img/produtos/foto2-Rosa.png">
 							</label>
 							<input type="radio" name="cor" id="azul" value="Azul">
 							<label for="azul">
-								<img src="img/produtos/foto2-azul.png">
+								<img src="img/produtos/foto2-Azul.png">
 							</label>
 						</fieldset>
 						<fieldset class="tamanhos">
 							<legend>Escolha o tamanho:</legend>
-							<input type="range" min="36" max="46" step="2" name="tamanho" id="tamanho">
+							<input type="range" min="36" max="46" value="40" step="2" name="tamanho" id="tamanho">
+							<output for="tamanho" name="valortamanho">42</output>
 						</fieldset>
 						<input type="submit" class="comprar" value="comprar">
 						<input type="hidden" name="nome" value="Fuzzy Cardigan">
@@ -75,5 +76,6 @@
 			</div>
 		</div>
 		<?php include("footer.php"); ?>
+		<script src="js/produto.js"></script>
 	</body>
 </html>
