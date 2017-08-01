@@ -1,0 +1,12 @@
+.form-control:invalid {
+	border: 1px solid #c00;
+}
+.navbar{
+	margin:0;
+}
+.navbar .glyphicon {
+	color:yellow;
+}
+body {
+	padding-top: 70px;
+}
